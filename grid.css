@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     /* border: 1px solid green;  */
+  }
+  
+  header{
+    background: #595959;
+    color: white;
+  }
+  
+  .footer{
+    height: 50px;
+  }
+  
+  .container{
+    min-height: calc(100vh - 70px);
+  }
+  
+  nav ul {
+    background: #404040; /*color of the bar */
+    text-align: center;
+  }
+  
+  nav ul li{
+    font-size: 1.3em;
+    line-height: 45px;
+    height: 45px;
+  }
+  
+  nav a{
+    text-decoration: none;
+    color: #E8852E;  /* color of text for menu */
+    display: block;
+  }
+  
+  nav a:hover{
+    background: #A6A6A6;  /* hover color of the menu */
+}
+.logo{
+    width: 250px;
+    height: auto; 
+}
+h1{
+    text-align:center; 
+    /* border:1px solid yellow;  */
+    color:#E8852E;
+    font-size: 40pt;
+    font-family: 'Roboto', sans-serif;
+}  
+h3{
+    
+    color: #E8852E ; 
+    /* line-height: 50px;  */
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+  text-align: center;
+  color: #E8852E;
+  font-family: 'Roboto', sans-serif;
+}
+h4{
+  color: #E8852E;
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  margin-top: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+li{
+  margin-top: 15px;
+  font-family: 'Source Sans Pro', sans-serif; 
+}
+
+.photo{
+  clear: both;
+  padding: 30px;
+  max-width: 1100px;
+  margin: 20px auto;
+  overflow: auto;
+  background: #404040;
+  font-size: 18pt;
+  color: white;
+}
+img{
+  width: 50%;
+  height: auto;
+  display: block;
+  padding: 20px;
+}
+
+.center{
+  display: block;
+  margin: 1px auto;
+  width: 500px;
+}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .rights{
+    float: right;
+    width: 350px;
+    height: auto
+  }
+  .centers{
+    display: block;
+    margin: 1px auto;
+    width: 85%;
+    height: auto;
+  }
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid black; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color:#45a049;
+  color :black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: darkgreen;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  background-color: #404040;
+  padding: 20px;
+}
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 600px) {
+    nav ul li{
+        width: 130px;
+        line-height: 50px;
+        height: 50px;
+        display: inline-block;
+    }
+  }
